@@ -4,8 +4,8 @@
     "description": "Build an extension",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "scripts": ["background.js"]
+        
     },
     "options_page": "options.html",
     "content_scripts": [
